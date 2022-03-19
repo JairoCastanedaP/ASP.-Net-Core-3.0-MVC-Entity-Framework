@@ -1,0 +1,3 @@
+Consola del administrador de paquetes ->
+
+PM> scaffold-dbcontext -provider Microsoft.EntityFrameworkCore.SqlServer -connection "Server= DESKTOP-LBC8NAB\SQLEXPRESS;Database=dbproductos;Trusted_Connection=True;” -OutputDir Models
