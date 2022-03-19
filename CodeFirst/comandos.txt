@@ -1,0 +1,4 @@
+Consola del administrador de paquetes ->
+
+PM> Add-Migration primera-migracion
+PM> Update-Database

@@ -12,10 +12,11 @@ namespace CodeFirst.Models
         {
 
         }
-        public DbContexto(DbContextOptions<DbContext> options) : base(options)
+        public DbContexto(DbContextOptions<DbContexto> options) : base(options)
         {
 
         }
+        //Declaramos las propiedades para exponer el modelo
         public virtual DbSet<Categoria> Categoria { get; set; }
         public virtual DbSet<Producto> Producto { get; set; }
 
@@ -24,8 +25,13 @@ namespace CodeFirst.Models
             modelBuilder.Entity<Categoria>(entity =>
             {
                 entity.ToTable("categoria");
-                entity.HasKey(e => e.idCategoria);
-                entity.Property(e => e.idCategoria).HasColumnName("idCategoria");
+                entity.HasKey(e => e.idcategoria);
+                entity.Property(e => e.idcategoria).HasColumnName("idcategoria");
+
+               // entity.Property(e => e.codigo)
+               //.HasColumnName("codigo")
+               //.HasMaxLength(20)
+               //.IsUnicode(false);
 
                 entity.Property(e => e.nombre)
                 .HasColumnName("nombre")
@@ -40,9 +46,10 @@ namespace CodeFirst.Models
 
                 entity.Property(e => e.estado)
                 .HasColumnName("estado")
-                .HasDefaultValueSql("((1))");
+                .HasDefaultValueSql("((1))") ;
 
             });
+
             modelBuilder.Entity<Producto>(entity =>
             {
             entity.ToTable("producto");
@@ -81,7 +88,7 @@ namespace CodeFirst.Models
 
                 entity.Property(e => e.estado)
                  .HasColumnName("estado")
-                 .HasDefaultValue("((1))");
+                 .HasDefaultValueSql("((1))");
 
                 entity.HasOne(p => p.categoria)
                 .WithMany(c => c.productos)
