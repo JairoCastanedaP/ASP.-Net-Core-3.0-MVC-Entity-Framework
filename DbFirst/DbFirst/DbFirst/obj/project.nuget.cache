@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V2RJHhJqbXRWAVusjLn1FsyEN6kJyYF5FJA1faPoRXILE+p3EEjqWLGCJsaMy991+A3/VLyqnF9VYQ5BJca9oA==",
+  "dgSpecHash": "CmtD+xLs7L2yJGRJsEULo8b73hMCyhcRM2cnouuuqg+INRFa4JudfljzOO+FqWx82dO8qmVrpTRtg8KnwVf60w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hp\\Desktop\\ASP. Net Core 3.0 MVC, Entity Framework\\DbFirst\\DbFirst\\DbFirst\\DbFirst.csproj",
   "expectedPackageFiles": [
@@ -162,7 +162,8 @@
     "C:\\Users\\Hp\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Hp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Hp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []
 }
